@@ -1,0 +1,14 @@
+name: GoldlandDCPlugin
+version: ${project.version}
+main: com.saniee.goldlanddcplugin.GoldlandDCPlugin
+prefix: GOLDLAND DC PLUGIN
+authors: [ Saniee ]
+description: A plugin for goldland server.
+website: https://saniee.rf.gd/
+depend:
+  - AdvancedBan
+commands:
+  sync:
+    description: Sends info about a player to dc.
+    usage: /<command>
+permissions:
