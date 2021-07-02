@@ -20,6 +20,10 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.Locale;
 
+/* TODO
+* Make the playtime work somehow.
+*/
+
 public class lookUp extends ListenerAdapter {
     private final GoldlandDCPlugin plugin;
     JDA Bot;

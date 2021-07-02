@@ -9,6 +9,10 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import java.util.Objects;
 
+/* TODO
+* Errors out sometimes out of not proper asynchrounous calls.
+*/
+
 public class ChatToMC extends ListenerAdapter {
     private final GoldlandDCPlugin plugin;
     JDA Bot;

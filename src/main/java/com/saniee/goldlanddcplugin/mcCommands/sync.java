@@ -18,6 +18,10 @@ import java.awt.*;
 import java.math.BigDecimal;
 import java.time.Instant;
 
+/* TODO
+* This Command is not being used. Will be removed on the next update.
+*/
+
 public class sync implements CommandExecutor {
     private final GoldlandDCPlugin plugin;
     JDA Bot;

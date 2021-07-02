@@ -9,6 +9,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.security.auth.login.LoginException;
 
+/* TODO
+* Remove the commands that are not used.
+*/
+
 public final class GoldlandDCPlugin extends JavaPlugin {
 
     JDA bot = null;

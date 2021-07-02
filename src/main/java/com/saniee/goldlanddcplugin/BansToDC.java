@@ -12,6 +12,10 @@ import java.awt.*;
 import java.time.Instant;
 import java.util.Locale;
 
+/* TODO
+* Add the name of the un-punished player in the revoke event. (ADDED)
+*/
+
 public class BansToDC implements Listener {
     private final GoldlandDCPlugin plugin;
 
@@ -50,6 +54,7 @@ public class BansToDC implements Listener {
             Revembed.setColor(Color.GREEN);
             Revembed.setAuthor("Punishment Revoked By: " + event.getPunishment().getOperator());
             Revembed.addField("Revoked Punishment of type: ", String.valueOf(event.getPunishment().getType()).toLowerCase(Locale.ROOT), false);
+            Revembed.addField("User being revoked:", event.getPunishment().getName(), false);
             Revembed.setFooter("Punishment Revoked");
             Revembed.setTimestamp(Instant.now());
         try {

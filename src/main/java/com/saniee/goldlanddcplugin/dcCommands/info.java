@@ -21,6 +21,10 @@ import java.math.RoundingMode;
 import java.time.Instant;
 import java.util.Locale;
 
+/* TODO
+* No tasks.
+*/
+
 public class info extends ListenerAdapter {
     private final GoldlandDCPlugin plugin;
     JDA Bot;

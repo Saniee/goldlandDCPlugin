@@ -14,6 +14,11 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import java.awt.*;
 import java.time.Instant;
 
+/* TODO
+* Fix Sending Embeds when the user is muted.
+* Make the logic for deciding if the player is muted better and efficient
+*/
+
 public class ChatToDC implements Listener {
     private final GoldlandDCPlugin plugin;
 
@@ -40,7 +45,7 @@ public class ChatToDC implements Listener {
         boolean IsMuted = PunishmentManager.get().isMuted(UUID);
         try {
             if (IsMuted || em.isCancelled()) {
-                return;
+                plugin.getLogger().info("Player Muted. Not Sending Embed!");
             } else {
                 channel.sendMessage(chmb.build()).queue();
             }

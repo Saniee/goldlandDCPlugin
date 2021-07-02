@@ -17,6 +17,10 @@ import java.awt.*;
 import java.time.Instant;
 import java.util.List;
 
+/* TODO
+* Add limiter to LORE fields so the plugin doesnt error out if it tries to add more then the API allows.
+*/
+
 public class AhToDC implements Listener {
     private final GoldlandDCPlugin plugin;
 
