@@ -16,7 +16,7 @@ import java.time.Instant;
 
 /* TODO
 * Fix Sending Embeds when the user is muted.
-* Make the logic for deciding if the player is muted better and efficient
+* Make the logic for deciding if the player is muted better and efficient.
 */
 
 public class ChatToDC implements Listener {

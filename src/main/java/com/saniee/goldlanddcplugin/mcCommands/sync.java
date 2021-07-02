@@ -19,7 +19,7 @@ import java.math.BigDecimal;
 import java.time.Instant;
 
 /* TODO
-* This Command is not being used. Will be removed on the next update.
+* Try adding some usefull stuff to it so it will be worth, to use this command.
 */
 
 public class sync implements CommandExecutor {
